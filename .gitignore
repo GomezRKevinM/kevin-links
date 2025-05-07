@@ -1,0 +1,30 @@
+# Node modules (si usas npm/yarn)
+node_modules/
+
+# Archivos de dependencias de paquetes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos de compilación de CSS/JS
+dist/
+build/
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de salida de herramientas (por ejemplo, Tailwind)
+assets/output.css
+
+# Archivos personales o de pruebas
+*.tmp
+*.swp

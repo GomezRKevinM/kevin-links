@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+    --color-primary: #09f;
+    --color-primary-light: #ceecff;
+    --color-primary-dark: #0a4d8c;
+
+    /* breakpoints */
+    --breakpoint-xs: 350px;
+}
+
+.social-button{
+    @apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full  hover:scale-110 transition-transform;
+}
+.social-link{
+    @apply text-white relative rounded-3xl overflow-hidden flex flex-col items-start hover:scale-105 hover:contrast-125 min-h-44 transition;
+}
