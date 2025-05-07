@@ -22,8 +22,6 @@ Thumbs.db
 .env
 .env.local
 
-# Archivos de salida de herramientas (por ejemplo, Tailwind)
-assets/output.css
 
 # Archivos personales o de pruebas
 *.tmp
